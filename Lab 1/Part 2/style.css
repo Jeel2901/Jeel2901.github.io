@@ -1,3 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birdwatching</title>
+  <link href ="https://fonts.googleapis.com/css?family=Roboto+Condensed:300%7CCinzel+Decorative:700" rel="stylesheet">
+
+ <!--
+	Name: Jeel Suthar 
+	File: index.html
+	Date: 22-05-2025
+	A very brief description of the index.html.
+	-->
+
+<style>
+
+
 /* || General setup */
 
 html, body {
@@ -136,3 +154,6 @@ aside img {
 footer {
   margin-top: 10px;
 }
+
+</style>
+</head>
