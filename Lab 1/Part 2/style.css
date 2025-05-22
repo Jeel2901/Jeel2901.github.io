@@ -157,3 +157,8 @@ footer {
 
 </style>
 </head>
+<body>
+  <header>
+    <h1>Birdwatching</h1>
+    <img src= "https://mdn.github.io/learning-area/css/styling-boxes/birdwatching/dove.png" alt="dove icon">
+  </header>
