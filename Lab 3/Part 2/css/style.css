@@ -22,7 +22,7 @@ div {
 
   background-image: linear-gradient(
     to bottom right,
-    rgba(0, 0, 0, 0) 30%,
+    rgba(0, 0, 0, 0) 45%
     rgba(0, 0, 0, 0.2) 80%,
     rgba(0, 0, 0, 0.2) 100%
   );
