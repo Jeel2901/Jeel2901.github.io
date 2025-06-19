@@ -28,8 +28,8 @@ body {
 
   article,
   aside {
-    flex: 1 1 300px;
-}
+  flex: 1 1 300px;
+  }
   
   nav {
     background-color: #000;
@@ -61,6 +61,16 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1px;
+  }
+
+  .photos img {
+  width: 100%;
+  display: block;
+  }
+
+  article img {
+  float: left;
+  margin: 0 1em 1em 0;
   }
 
   .feature {
