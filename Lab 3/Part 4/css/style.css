@@ -56,15 +56,15 @@ body {
   
   .photos {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1px;
   }
 
   .photos img {
-  width: 100%;
+  width: 25%;
   display: block;
   }
 
