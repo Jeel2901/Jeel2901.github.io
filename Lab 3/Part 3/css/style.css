@@ -44,8 +44,6 @@ header, footer {
 
 /* WRITE YOUR CODE BELOW HERE */
 
-
-/* === Custom Font: Enyo Slab for Headings === */
 @font-face {
   font-family: 'Enyo Slab';
   src: url('fonts/Enyo-Slab_Regular.ttf') format('truetype');
@@ -53,9 +51,8 @@ header, footer {
   font-style: normal;
 }
 
-/* === Typography === */
 body {
-  font-family: 'Georgia', serif; /* A clean, formal body font */
+  font-family: 'Georgia', serif; 
   font-size: 10px;
   line-height: 1.6;
   letter-spacing: 0.3px;
@@ -82,13 +79,11 @@ h3 {
   font-size: 1.5rem;
 }
 
-/* Indent first paragraph after heading in section */
 section h2 + p,
 section h3 + p {
   text-indent: 20px;
 }
 
-/* === Links === */
 a {
   color: #a66;
   text-decoration: underline;
@@ -111,7 +106,7 @@ a:active {
   font-weight: bold;
 }
 
-/* External link icon */
+
 a[href^="http"]::after {
   content: " ";
   display: inline-block;
@@ -125,7 +120,6 @@ a[href^="http"]::after {
   font-size: 5px;
 }
 
-/* === Lists === */
 ul, ol {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -138,7 +132,6 @@ li {
   list-style-type: square;
 }
 
-/* === Navigation Menu === */
 nav {
   background-color: #f2f2f2;
   font-family: 'Enyo Slab', serif;
