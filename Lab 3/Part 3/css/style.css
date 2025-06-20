@@ -112,11 +112,12 @@ a:active {
 }
 
 /* External link icon */
-a::after {
-  content: "";
+a[href^="http"]::after {
+  content: " ";
   display: inline-block;
-  width: 10px; 
-  background-image: url("../image/external-link-52.png");
+  width: 8px; 
+  height: 8px;
+  background-image: url('../image/external-link-52.png');
   background-size: contain;
   background-repeat: no-repeat;
   vertical-align: 3px;
@@ -160,6 +161,7 @@ nav a {
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
+  border: #c88 solid 1px;
   transition: background-color 0.3s;
 }
 
