@@ -32,3 +32,5 @@ for (let i = 1; i <= 5; i++) {
 }
 
 /* Wiring up the Darken/Lighten button */
+btn.addEventListener('click', function() {
+  const btnClass = btn.getAttribute('class');
