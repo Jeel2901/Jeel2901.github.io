@@ -184,7 +184,7 @@ audio {
 
 .show-hide {
   cursor: pointer;
-  border: none;
+  border: none;  
 }
 
 .show-hide:focus {
